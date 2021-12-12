@@ -1,0 +1,28 @@
+=> create environment
+python3 -m venv newsappenv
+
+=> enter the environment
+source newsappenv/bin/activate
+
+=> install django first
+pip install django
+
+
+=> create project
+django-admin startproject newsproject
+
+=> create appx
+cd newsproject
+python manage.py startapp newsapp
+
+
+=> add newsapp in setting.py folder newsproject
+
+
+
+
+
+
+
+
+
